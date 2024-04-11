@@ -4,7 +4,7 @@ import {COLORS} from '../components/colors';
 import {getViewportHeight} from '../utils/getViewportHeight';
 import {RouteDescription} from '../components/RouteDescription';
 import {Footer} from '../components/Footer';
-// import CurrentLocation from '../components/CurrentLocation';
+import CurrentLocation from '../components/CurrentLocation';
 import RouteContext from '../RouteContext';
 
 export const Location = () => {
@@ -27,9 +27,9 @@ export const Location = () => {
         </View>
       </View>
 
-      {/* <View style={styles.mapContainer}>
+      <View style={styles.mapContainer}>
         <CurrentLocation />
-      </View> */}
+      </View>
 
       <Footer />
     </SafeAreaView>
@@ -52,9 +52,7 @@ const styles = StyleSheet.create({
     color: COLORS.textPrimary,
   },
   mapContainer: {
-    marginTop: 79,
-    marginBottom: 10,
-    paddingHorizontal: 36,
+    marginTop: 18,
     flexGrow: 1,
   },
   info: {
