@@ -1,0 +1,30 @@
+[
+  {
+    "routeCode": "EX 1-2",
+    "routeTitle": "Kaduwela - Matara",
+    "routeSpeed": 200,
+    "routeImage": "../src/img/bus_pic.png",
+    "totalSeats": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16],
+    "availableSeatsLeft": [1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13],
+    "availableSeatsRight": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13, 14]
+  },
+  {
+    "routeCode": "EX 1-25",
+    "routeTitle": "Panadura - Matara",
+    "routeSpeed": 180,
+    "routeImage": "../src/img/bus_pic.png",
+    "totalSeats": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14],
+    "availableSeatsLeft": [2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14],
+    "availableSeatsRight": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+  },
+  {
+    "routeCode": "EX 1-35",
+    "routeTitle": "Kharkiv - Kyiv",
+    "routeSpeed": 120,
+    "routeImage": "../src/img/bus_pic.png",
+    "totalSeats": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14],
+    "availableSeatsLeft": [1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14],
+    "availableSeatsRight": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+  }
+]
+
